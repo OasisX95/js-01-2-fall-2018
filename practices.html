@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+              <link rel="stylesheet" type="text/css" href="practices.css">
+        </head>
+
+        <body>
+            <button type= "button">Click Me!</button>
+            <script>
+
+              $("button").click(()=>{
+                const myCity = "I love"
+                const cityName= "New York";
+                let sentence = `${myCity} ${cityName}`
+                document.open();
+                document.write(sentence);
+                document.close();
+
+              })
+
+            </script>
+        </body>
+
+    </html>
